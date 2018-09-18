@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>swap two number</title>
+</head>
+<body>
+<h1>this is my first javascript program </h1>
+
+value of a: <input id="first">
+value of b: <input id="second">
+</br></br>
+
+<button onclick="swap()">swap</button></br></br>
+
+value of a: <input id="answer1">
+value of b: <input id="answer2">
+
+<script language="javascript" type="text/javascript">
+   function swap() {
+       var a,b,c;
+
+       a=Number(document.getElementById("first").value);
+       b=Number(document.getElementById("second").value);
+       c=a;
+       a=b;
+       b=c;
+
+       document.getElementById("answer1").value= a;
+       document.getElementById("answer2").value= b;
+
+   }
+   
+
+</script>
+</body>
+</html>

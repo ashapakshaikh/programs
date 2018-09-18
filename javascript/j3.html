@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>scope variable</title>
+</head>
+<body onload="checkscope()">
+
+  <script type="text/javascript">
+      var myMall="global"
+      function checkscope(){
+        var myCall ="local"
+        document.write(myCall);
+      }
+      document.write(myMall);
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>all in one</title>
+</head>
+<body>
+<h1>Page Redirect</h1>
+<h2>WITHOUT PRACTIC NO ONE PERFECT</h2>  
+<input type="button" value="click to GO" onclick="newDoc()">
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<script type="text/javascript">
+	
+	document.getElementById("demo").innerHTML = "page location is:"  + window.location.href;
+
+	document.getElementById("demo1").innerHTML = "Host Name is:" + window.location.hostname;
+
+	document.getElementById("demo2").innerHTML = "Pathname of URL" + window.location.pathname;
+
+	document.getElementById("demo3").innerHTML = "Page Protocol is:" + window.location.protocol;
+
+	document.getElementById("demo4").innerHTML = "Port number is:" + window.location.port;
+
+function newDoc(){
+	window.location.assign("https://www.facebook.com/ashpak.shaikh.31149359")
+}
+
+</script>
+</body>
+</html>

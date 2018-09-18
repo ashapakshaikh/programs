@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>data type</title>
+	<style type="text/css">
+		table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    color: red;
+}
+	</style>
+</head>
+<body>
+<table style="width:70%">
+<tr>
+<th>This is the Data Types</th>
+<th>Answer of the Data Types</th>
+</tr>
+<tr>
+<td>
+Number addition</td>
+<td id="demo"></td>
+</tr>
+<tr>
+<td>String and Number Addition</td>
+<td id="demo1"></td>
+</tr>
+<tr>
+<td>Double quotes and single quotes</td>
+<td id="demo2"></td>
+</tr>
+<tr>
+<td>Scientific Number</td>
+<td id="demo3"></td>
+</tr>
+<tr>
+	<td> Type Of Use to check String or Number</td>
+	<td id="demo4"></td>
+</tr>
+</table>
+<script type="text/javascript">
+	var length = 16, x,y=123e5, z=123e-5;
+	var firstName = "Ashpak";
+	var lastName = "shaikh";
+     var fullName = "My name is 'Ashpak Shaikh'";
+     x=length+144;
+     document.getElementById("demo").innerHTML = x;
+     x=length+firstName;
+     document.getElementById("demo1").innerHTML = x;
+     document.getElementById("demo2").innerHTML = fullName;
+     document.getElementById("demo3").innerHTML = y + "<br>" + z;
+
+      document.getElementById("demo4").innerHTML = typeof 0 + "<br>" +
+                      typeof "" + "<br>" +
+                 typeof "Ashpak" + "<br>" +
+                 typeof undefined +"<br>" +
+                   typeof null + "<br>" +
+            (null === undefined) + "<br>" +
+               (null == undefined);
+</script> 
+ 
+
+</body>
+</html>

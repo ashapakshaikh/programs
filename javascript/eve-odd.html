@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>even and odd number</title>
+</head>
+<body>
+    Enter the number: <input id="first">
+    <button onclick="evenorodd()">click on me</button>
+    <script type="text/javascript">
+    function evenorodd(){
+        var num;
+        num=Number(document.getElementById("first").value);
+        if(num%2==0){
+            alert("Even number")
+        }
+        else{
+            alert("Odd number");
+        }
+    }
+    </script>
+</body>
+</html>

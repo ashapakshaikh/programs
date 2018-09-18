@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>string codeing</title>
+</head>
+<body>
+<h1>This is javascript String.</h1>
+<h2>Double quote string.</h2>
+<p id="demo"></p>
+<h2>Single quote string.</h2>
+<p id="demo1"></p>
+<h2> Blackslash string.</h2>
+<p id="demo2"></p>
+<h2> String can be Object .</h2>
+<p id="demo3"></p>
+<h2> String can be Object .</h2>
+<p id="demo4"></p>
+<h2> String can be Object .</h2>
+<p id="demo5"></p>
+
+<script type="text/javascript">
+	var x="We are the diffrent \"kind\" of people because we are coder.";
+	document.getElementById("demo").innerHTML = x;
+	var y="We are the diffrent \'kind\'of people because we are coder.";
+	document.getElementById("demo1").innerHTML = y;
+    var z="We are the diffrent \\kind\\ of people because we are coder.";
+	document.getElementById("demo2").innerHTML = z;
+	var a = "Ashpak";
+	var h = new String("Ashpak");
+	var s = new String("Coder");
+	document.getElementById("demo3").innerHTML = typeof a  +" " +typeof s;
+	document.getElementById("demo4").innerHTML = (a==h);
+	document.getElementById("demo5").innerHTML = (a===s);
+</script>
+</body>
+</html>
