@@ -1,0 +1,22 @@
+copyWithin():-
+The JavaScript array copyWithin() method copies the part of the given array with its own elements and returns the modified array. This method doesn't change the length of the modified array.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>copy within</title>
+</head>
+<body>
+<script type="text/javascript">
+	function cpywith(){
+		var arr=["ajit","ashpak","pratik","sai"];
+		result = arr.copyWithin(0,1,1);
+		document.getElementById("answer").value=result;
+		
+	}
+</script>
+   <button onclick="cpywith()">click on me</button>
+  <input type="text" id="answer">
+</body>
+</html>

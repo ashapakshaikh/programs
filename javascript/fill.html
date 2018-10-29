@@ -1,0 +1,25 @@
+fill():-
+The JavaScript array fill() method fills the elements of the given array with the specified static values. This method modifies the original array. It returns undefined, if no element satisfies the condition.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fill method</title>
+</head>
+<body>
+<script type="text/javascript">
+	var arr=["angular","javascript","nodejs"];
+	function filll(){
+		result = arr.fill("bootstrap",2);
+		document.getElementById("answer").value=result;
+	}
+</script>
+<button onclick="filll()">click on me</button>
+<input type="text" id="answer">
+</body>
+</html>
+
+output:-
+             angular,javascript,bootstrap
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fact number</title>
+</head>
+<body>
+<script type="text/javascript">
+function fact(){
+	  var i,j,no;
+	       j=1;
+	       no=Number(document.getElementById("num").value);
+	     for(i=1;i<no;i++)
+	      {
+		    j=j*i;
+	       }
+	     document.getElementById("answer").value=j;
+	   }
+	
+</script>
+<input type="text" id="num">
+Anwer is <button onclick="fact()" >click on me</button>
+<input type="text" id="answer">
+</body>
+</html>

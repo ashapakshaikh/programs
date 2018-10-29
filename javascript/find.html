@@ -1,0 +1,28 @@
+find():-
+The JavaScript array find() method returns the first element of the given array that satisfies the provided function conditio
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>find</title>
+</head>
+<body>
+<pre>
+<script type="text/javascript">
+	function isPrime(value,index,arr){
+		var start=2;
+		while(start<=Math.sqrt(value)){
+			if(value % start++ <1){
+				return false;
+			}
+		}
+		return value>1;
+	}
+	document.write([8,4,7,22].find(isPrime));
+</script>
+</pre>
+</body>
+</html>
+  
+  output:- 
+             7
