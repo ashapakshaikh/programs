@@ -1,0 +1,25 @@
+concat():-
+The JavaScript array concat() method combines two or more arrays and returns a new string. This method doesn't make any change in the original array.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>concat method</title>
+</head>
+<body>
+<script type="text/javascript">
+	function con(){
+		var arr1=["ajit","dattaray","wagh"];
+		var arr2=["Hanuman Wadi","Malshiras"];
+		result=arr1.concat(arr2);
+		document.getElementById("answer").value=result;
+
+	}
+</script>
+<button onclick="con()">click on me </button>
+<input type="text" id="answer">
+</body>
+</html>
+
+

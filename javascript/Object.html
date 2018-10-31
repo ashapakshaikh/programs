@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object</title>
+</head>
+<body>
+<h1>This is Javascript Objects</h1>
+<p id="demo"></p>
+<br>
+<p id="demo1"></p>
+
+<script type="text/javascript">
+	var car = {name:"hyundai",color:"red",model:"i20"}
+	document.getElementById("demo").innerHTML = car.model +"is best selleing in "+ car.color + " color";
+
+	var person = {
+		firstName : "Ashpak",
+		lastName :"Shaikh",
+		fullName : function() {
+			return this.firstName + " " + this.lastName;
+		}
+	};
+       document.getElementById("demo1").innerHTML = person.fullName();
+	 
+</script>
+</body>
+</html>

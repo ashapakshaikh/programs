@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forin</title>
+</head>
+<body>
+<script type="text/javascript">
+	var aProperty;
+
+	for(aProperty in navigator){
+		document.write(aProperty);
+		document.write("<br />");
+	}
+  function sayhello(){
+  	document.write("Hey Hello There");
+  }
+</script>
+<form>
+	<input type="button" name="chat" onclick="sayhello()" value="chat with me">
+</form>
+</body>
+</html>

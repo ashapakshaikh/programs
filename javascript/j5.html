@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>logical operator</title>
+</head>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+<body>
+  <table cellspacing="20">
+    <tr>
+      <th>logical AND</th>
+      <th>logical OR</th>
+      <th>logical NOT</th>
+    </tr>
+    <tr>
+      <td id="t1"></td>
+      <td id="t2"></td>
+      <td id="t3"></td>
+    </tr>
+  </table>
+  <script type="text/javascript">
+    var a="true";
+    var b="false"
+
+     result=(a && b);
+     document.getElementById("t1").innerHTML = result;
+
+     result=(a || b);
+    document.getElementById("t2").innerHTML = result;
+
+     result=(!(a&&b))
+     document.getElementById("t3").innerHTML = result;
+
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String Methods</title>
+</head>
+<body>
+  <h1>This is Javascript String methods</h1>
+  <p id="demo"></p>
+  <h2>This is length method</h2>
+  <p id="demo1"></p>
+  <h2>This is lastIndexOf method</h2>
+  <p id="demo2"></p>
+  <h2>This is slice method accept -ve and +ve values</h2>
+  <p id="demo3"></p>
+   <h2>This is substring method but does not accept -ve value</h2>
+  <p id="demo4"></p>
+  <h2>If you omit the second parameter, substr() will slice out the rest of the string.</h2>
+  <p id="demo5"></p>
+  <p id="demo6"></p>
+  <h2>This is charCodeAt method</h2>
+  <p id="demo7"></p>
+
+  <script type="text/javascript">
+  	var str="Please Ashpak dont give up";
+  	var pos = str.indexOf("Ashpak");
+  	var sln = str.length;
+  	var los = str.lastIndexOf("Ashpak");
+  	var res = str.slice(7,16);
+  	var sub = str.substring(7,13);
+  	var bas = str.substr(7);
+  	var n = str.replace(/dont/g, "you cant");
+
+  	document.getElementById("demo").innerHTML = pos;
+  	document.getElementById("demo1").innerHTML = sln;
+  	document.getElementById("demo2").innerHTML = los;
+    document.getElementById("demo3").innerHTML = res;
+    document.getElementById("demo4").innerHTML = sub;
+    document.getElementById("demo5").innerHTML = bas;
+    document.getElementById("demo6").innerHTML = n;
+    document.getElementById("demo7").innerHTML = str.charCodeAt(0);
+
+  </script>
+</body>
+</html>
