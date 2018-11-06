@@ -1,0 +1,26 @@
+
+                             Angular 6
+
+
+Backend :-
+
+1)Create project folder:--- ex: nikhilagro
+
+2)Inside the nikhilagro create package.json file:-   $ npm init
+
+3)then install express :- $ sudo npm install express  - - save
+
+4)create server.js file.
+
+5)install cors :- $ sudo npm install cors
+
+6)install body-Parser:- $ sudo npm install --save body-parser
+
+Frontend :-
+
+1) install angular :-  $ sudo npm install -g @angular/cli
+
+2)create frontend directory angular new project frontend :- $ sudo ng new frontend
+
+3) go inside frontend and open your project :- $ sudo ng new frontend
+
